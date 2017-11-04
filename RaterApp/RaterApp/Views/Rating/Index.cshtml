@@ -1,0 +1,175 @@
+﻿@model IEnumerable<RaterApp.Models.RatingModel>
+
+@{
+    ViewBag.Title = "Top Rated Movies";
+}
+
+<h2>Top Rated Movies @@ 09.29:45</h2>
+
+<h2><<<<<<<<<<<<<<<<<<</h2>
+
+<h4>8 A.M.</h4>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Channel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BroadcastTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Providers)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Channel)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.BroadcastTime)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            @foreach (var element in item.Providers)
+            {
+                <td>@Html.DisplayFor(modelItem => element.ProviderName)</td>
+
+                <td>@Html.DisplayFor(modelItem => element.OfficialScore)</td>
+            }
+            <td></td>
+        </tr>
+    }
+</table>
+<h5>.....................</h5>
+
+
+
+<h4>9 A.M.</h4>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Channel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BroadcastTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Providers)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Channel)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.BroadcastTime)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            @foreach (var element in item.Providers)
+            {
+                <td>@Html.DisplayFor(modelItem => element.ProviderName)</td>
+
+                <td>@Html.DisplayFor(modelItem => element.OfficialScore)</td>
+            }
+            <td></td>
+        </tr>
+    }
+</table>
+
+    <h5>.....................</h5>
+
+
+
+    <h4>10 A.M.</h4>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Channel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BroadcastTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Providers)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Channel)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.BroadcastTime)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            @foreach (var element in item.Providers)
+            {
+                <td>@Html.DisplayFor(modelItem => element.ProviderName)</td>
+
+                <td>@Html.DisplayFor(modelItem => element.OfficialScore)</td>
+            }
+            <td></td>
+        </tr>
+    }
+</table>
+
+        <h5>.....................</h5>
+
+
+        <h2>>>>>>>>>>>>>>>>>>>></h2>

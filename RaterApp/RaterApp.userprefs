@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{42CEB04F-DFC2-431F-85E8-BC235E3AC7CF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RaterApp/Logic/Helpers.cs">
+    <Files>
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2001" Column="5" />
+      <File FileName="RaterApp/Controllers/RatingController.cs" Line="1" Column="1" />
+      <File FileName="RaterApp/Controllers/RatingProviderController.cs" Line="1" Column="1" />
+      <File FileName="RaterApp/Logic/Helpers.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
